@@ -1,0 +1,696 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1240px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.navbar{
+    width: 1240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_img{
+    width: 90px;
+    margin-left: 50px;
+}
+
+.navimg{
+    width: 100px;
+    height: 100px;
+}
+
+.nav_text{
+    width: 600px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.item_text{
+    list-style: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+}
+
+.animashin{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+}
+.slide{
+    width: 300%;
+    display: flex;
+    justify-content: space-around;
+    animation-name: sup;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 4s;
+}
+
+.img_animashin{
+    width: 1240px;
+    height: 600px;
+}
+
+@keyframes sup{
+    0%{
+        transform: translate(0, 0);
+    }
+    40%{
+        transform: translate(-1240px, 0);
+    }
+    50%{
+        transform: translate(-1240px, 0);
+    }
+    90%{
+        transform: translate(-2480px, 0px);
+    }
+    100%{
+        transform: translate(-2480px, 0px);
+    }
+}
+
+.waiting{
+    width: 100%;
+}
+
+.waiting1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.w_img{
+    width: 500px;
+}
+
+.wtw{
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#w1{
+    text-decoration: none;
+    color: black;
+}
+
+.ww{
+    width: 100%;
+    height: 100%;
+}
+
+.w_text{
+    width: 500px;
+}
+
+.w_text1{
+    font-size: 40px;
+    padding: 20px 0px;
+}
+
+.w_text2{
+    font-size: 25px;
+    padding: 20px 0;
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    transition: all 1s;
+}
+
+.btn:hover{
+    background-color: blue;
+    color: black;
+}
+
+.offec_r{
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.offec{
+    text-align: center;
+    font-size: 30px;
+    padding: 40px 0;
+}
+
+#offeec{
+    text-decoration: none;
+    color: black;
+}
+
+.offec_r1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.offec_rt{
+    width: 500px;
+}
+
+.offec_rimg{
+    width: 500px;
+    height: 400px;
+}
+
+.offec_r_img{
+    width: 100%;
+    height: 100%;
+}
+
+.offec_rt1{
+    font-size: 60px;
+    padding: 20px 0;
+}
+
+.offec_rtp{
+    font-size: 35px;
+    padding: 15px 0;
+}
+
+.o_ketchen1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.o_kitchent{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 30px;
+}
+
+#kitchen{
+    text-decoration: none;
+    color: black;
+}
+
+.o_kitchen2{
+    width: 500px;
+}
+
+.o_kitchen_text{
+    font-size: 50px;
+    padding: 10px 0;
+}
+
+.o_kitp{
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.o_kitchen3{
+    width: 600px;
+    height: 400px;
+}
+
+.o_kitimg{
+    width: 100%;
+    height: 100%;
+}
+
+.o_work{
+    background-color: blueviolet;
+}
+
+.o_work_text{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 35px;
+}
+
+#work{
+    text-decoration: none;
+    color: black;
+}
+
+.o_work1{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.o_work2{
+    width: 600px;
+    height: 400px;
+}
+
+.o_workimg{
+    width: 100%;
+    height: 100%;
+}
+
+.o_workt{
+    width: 500px;
+}
+
+.o_worktext{
+    padding: 20px 0;
+    font-size: 50px;
+}
+
+.o_workp{
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.iwm_text{
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+#iwm{
+    text-decoration: none;
+    color: black;
+}
+
+.iwe1{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iwm1{
+    width: 500px;
+}
+
+.iwe_text{
+    font-size: 45px;
+    padding: 20px 0;
+}
+
+.iwmp{
+    font-size: 35px;
+    padding: 20px 0;
+}
+
+.iwm2{
+    width: 600px;
+    height: 450px;
+}
+
+.iwm_img{
+    width: 100%;
+    height: 100%;
+}
+
+#logo{
+    width: 25px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.logo1{
+    width: 1000px;
+    height: 70px;
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gogo{
+    padding: 20px 0;
+    border-bottom-right-radius: 50px;
+}
+
+@media (min-width: 350px) and (mix-width: 450px){
+    .container{
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+    }
+    
+    .navbar{
+        width: 100%;
+        flex-direction: column; 
+    }
+    
+    .nav_img{
+        width: 90px;
+        margin-left: 50px;
+    }
+    
+    .navimg{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .nav_text{
+        width: 600px;
+        margin-top: 40px;
+        margin-right: 30px;
+    }
+    
+    .item{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .item_text{
+        list-style: none;
+    }
+    
+    .links{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .animashin{
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+    }
+    .slide{
+        width: 300%;
+        display: flex;
+        justify-content: space-around;
+        animation-name: sup;
+        animation-iteration-count: infinite;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-delay: 4s;
+    }
+    
+    .img_animashin{
+        width: 1240px;
+        height: 600px;
+    }
+    
+    @keyframes sup{
+        0%{
+            transform: translate(0, 0);
+        }
+        40%{
+            transform: translate(-1240px, 0);
+        }
+        50%{
+            transform: translate(-1240px, 0);
+        }
+        90%{
+            transform: translate(-2480px, 0px);
+        }
+        100%{
+            transform: translate(-2480px, 0px);
+        }
+    }
+    
+    .waiting{
+        width: 100%;
+    }
+    
+    .waiting1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .w_img{
+        width: 500px;
+    }
+    
+    .wtw{
+        padding: 40px 0px;
+        text-align: center;
+        font-size: 25px;
+    }
+    
+    #w1{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .ww{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .w_text{
+        width: 500px;
+    }
+    
+    .w_text1{
+        font-size: 40px;
+        padding: 20px 0px;
+    }
+    
+    .w_text2{
+        font-size: 25px;
+        padding: 20px 0;
+    }
+    
+    .btn{
+        margin-top: 10px;
+        padding: 15px 40px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        transition: all 1s;
+    }
+    
+    .btn:hover{
+        background-color: blue;
+        color: black;
+    }
+    
+    .offec_r{
+        width: 100%;
+        background-color: aquamarine;
+    }
+    
+    .offec{
+        text-align: center;
+        font-size: 30px;
+        padding: 40px 0;
+    }
+    
+    #offeec{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .offec_r1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .offec_rt{
+        width: 500px;
+    }
+    
+    .offec_rimg{
+        width: 500px;
+        height: 400px;
+    }
+    
+    .offec_r_img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .offec_rt1{
+        font-size: 60px;
+        padding: 20px 0;
+    }
+    
+    .offec_rtp{
+        font-size: 35px;
+        padding: 15px 0;
+    }
+    
+    .o_ketchen1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .o_kitchent{
+        text-align: center;
+        padding: 40px 0;
+        font-size: 30px;
+    }
+    
+    #kitchen{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .o_kitchen2{
+        width: 500px;
+    }
+    
+    .o_kitchen_text{
+        font-size: 50px;
+        padding: 10px 0;
+    }
+    
+    .o_kitp{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    
+    .o_kitchen3{
+        width: 600px;
+        height: 400px;
+    }
+    
+    .o_kitimg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .o_work{
+        background-color: blueviolet;
+    }
+    
+    .o_work_text{
+        text-align: center;
+        padding: 20px 0;
+        font-size: 35px;
+    }
+    
+    #work{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .o_work1{
+        width: 100%;
+        height: 450px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .o_work2{
+        width: 600px;
+        height: 400px;
+    }
+    
+    .o_workimg{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .o_workt{
+        width: 500px;
+    }
+    
+    .o_worktext{
+        padding: 20px 0;
+        font-size: 50px;
+    }
+    
+    .o_workp{
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    .iwm_text{
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+    }
+    
+    #iwm{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .iwe1{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .iwm1{
+        width: 500px;
+    }
+    
+    .iwe_text{
+        font-size: 45px;
+        padding: 20px 0;
+    }
+    
+    .iwmp{
+        font-size: 35px;
+        padding: 20px 0;
+    }
+    
+    .iwm2{
+        width: 600px;
+        height: 450px;
+    }
+    
+    .iwm_img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #logo{
+        width: 25px;
+        height: 40px;
+        margin-left: 30px;
+    }
+    
+    .logo1{
+        width: 1000px;
+        height: 70px;
+        padding: 80px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .gogo{
+        padding: 20px 0;
+        border-bottom-right-radius: 50px;
+    }
+}
